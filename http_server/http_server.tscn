@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://http_server/http_server.gd" type="Script" id=1]
+[ext_resource path="res://assets/theme_1/theme_1_theme.tres" type="Theme" id=2]
+
+[node name="HTTPServer" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 2 )
+script = ExtResource( 1 )
+
+[node name="AnswerToRequestBtn" type="Button" parent="."]
+margin_left = 80.0
+margin_top = 161.0
+margin_right = 1042.0
+margin_bottom = 313.0
+
+[node name="Label" type="Label" parent="AnswerToRequestBtn"]
+margin_left = 117.0
+margin_top = 49.0
+margin_right = 859.0
+margin_bottom = 106.0
+text = "Answer to 1 request"
+
+[node name="AnswerToAllRequestsBtn" type="Button" parent="."]
+margin_left = 72.0
+margin_top = 556.0
+margin_right = 1072.0
+margin_bottom = 716.0
+
+[node name="Label2" type="Label" parent="AnswerToAllRequestsBtn"]
+margin_left = 57.0
+margin_top = 52.0
+margin_right = 946.0
+margin_bottom = 109.0
+text = "Answer to all requests"
+
+[connection signal="pressed" from="AnswerToAllRequestsBtn" to="." method="_on_AnswerToAllRequestsBtn_pressed"]

@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/BTN_RED_RECT_IN.png-c511991446a07a6e3ee909f69b4f8562.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://screens/game/assets_theme_3/BTN_RED_RECT_IN.png"
+dest_files=[ "res://.import/BTN_RED_RECT_IN.png-c511991446a07a6e3ee909f69b4f8562.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

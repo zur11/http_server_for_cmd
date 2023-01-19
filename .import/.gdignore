@@ -1,0 +1,6 @@
+.import/
+.tmp.driveupload/
+.tmp.drivedownload/
+.vscode/
+android/
+assets/rawMaterial/

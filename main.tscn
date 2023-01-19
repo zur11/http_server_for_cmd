@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://http_server/http_server.tscn" type="PackedScene" id=1]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="HTTPServer" parent="." instance=ExtResource( 1 )]
+
+[connection signal="pressed" from="HTTPServer/AnswerToRequestBtn" to="HTTPServer" method="_on_AnswerToRequestBtn_pressed"]
+
+[editable path="HTTPServer"]

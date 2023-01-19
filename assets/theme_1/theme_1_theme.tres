@@ -1,0 +1,31 @@
+[gd_resource type="Theme" load_steps=9 format=2]
+
+[ext_resource path="res://assets/theme_1/BTN_BLUE_RECT_OUT.png" type="Texture" id=1]
+[ext_resource path="res://assets/theme_1/BTN_BLUE_RECT_IN.png" type="Texture" id=2]
+[ext_resource path="res://assets/all_themes/BTN_GRAY_RECT_OUT.png" type="Texture" id=3]
+[ext_resource path="res://assets/fonts/Tigerious_dynamicfont.tres" type="DynamicFont" id=4]
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 381, 138 )
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 381, 138 )
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 381, 138 )
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 381, 138 )
+
+[resource]
+Button/fonts/font = ExtResource( 4 )
+Button/styles/disabled = SubResource( 1 )
+Button/styles/hover = SubResource( 2 )
+Button/styles/normal = SubResource( 3 )
+Button/styles/pressed = SubResource( 4 )
+Label/fonts/font = ExtResource( 4 )
+LineEdit/fonts/font = ExtResource( 4 )
